@@ -1,0 +1,22 @@
+QW43a) Create a database schema for storing Employees and their dependents. Every employee has a name, id, email, phno, address, dob. Each employee can have 0 or more dependents. Every dependent has a name, dob, relation. Also a dependent maybe related to more than 1 employee. 
+1) List all the employee names with their dependents name, age and relation
+2) List all the employees who have more than 2 dependents
+3) List all dependents who are dependent on more than 1 employee (and the emp names)
+4) List the employees who do not have dependents
+5) What is the average number of dependents per employee?
+6) What is the total number of unique dependents that the employees support.
+7) List all the employees who have spouse as a dependent but no kids.
+
+b) Every employee belongs to a team. Every team has a name, location, reporting manager (one of the employees). Teams belong to a department. Many teams might belong to the same department. A department has a name, location, id and head (again one of the employees).
+1) Display the department, team, employee hierarchy
+
+c) Every employee has a reporting-manager (who also is an employee). Add this info to the schema.
+1) List all the employees under a given manager
+2) List the hierarchy of manager to employees, starting from the top manager (probably there will be only 1 employee who reports to himself).
+3) List the 'n' th rung managers where n is given as an input, starting from the top manager position = 1
+4) What is the average number of employees per manager?
+
+d) Every employees salary is to be captured in the db. Every salary will have a start date, end date and the salary figure given. 
+1) What is the salary given to an employee in the date range provided?
+2) What is the average salary for all the employees put together in a given date range?
+3) List all the employees ordered by descending salary payouts.
